@@ -1,9 +1,8 @@
 import numpy as np
 from Conv import Conv
 from ReLU import ReLU
-from MeanPool import MeanPool
 from MaxPool import MaxPool
-from BackMaxPool import BackMaxPool
+from project01.BackMaxPool import BackMaxPool
 from Softmax import Softmax
 from scipy import signal
 """
