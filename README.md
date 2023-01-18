@@ -22,3 +22,7 @@
 - Mnist database에서 가져온 t10k-images-idx3-ubyte의 1만개 이미지 파일과 t10k-labels-idx1-ubyte의 1만개 라벨을 이용해 미리 학습시킨 convolution neural network을 거쳐 나온 가중치로 숫자를 판별했습니다. 연산자 또한 그림판으로 직접 그린 50개의 연산자 이미지와 그에 따른 50개의 라벨을 이용해 미리 학습시킨 convolution neural network을 거쳐 나온 가중치로 판별했습니다. 
 - convolution neural network의 활성함수는 ReLU를 사용하였고 output layer는 OHE판별을 위해 Softmax를 사용했습니다. 가중치 계산은 숫자와 연산자 각각 100개, 10개 씩 평균을 내며 계산하는 미니배치 방식을 사용하였고 Pooling은 Meanpooling 과 Maxpooling을 둘 다 사용해 보았고 최종 코드는 Maxpooling을 사용했습니다. 이 때 Meanpooling이 Maxpooling보다 빠른 학습속도를 보였으나 숫자 판별 시 6을 0으로 인식하는 등 인식률이 떨어지는 모습을 보였고, Maxpooling은 학습속도는 느리나 모든 숫자 및 연산자를 인식하며 더 높은 인식률을 보였습니다. 
 - 숫자와 연산자 판별 이후 나머지 과정들은 3개의 hidden layer를 가진 Multi neural network를 통해 학습 및 판별이 이뤄졌으며 이 때 활성함수는 Sigmoid를 사용하였고 학습과정에 필요한 training 데이터와 정답 데이터는 반복문과 함수 생성을 통해 직접 만들었습니다. 마지막 출력 LED 이미지 또한 그림판으로 직접 만들었습니다. 
+<img width="50%" src="https://user-images.githubusercontent.com/122807795/213195986-65a1e837-8092-4f55-88f5-c01bbc68a09c.JPG"/>
+<img width="50%" src="https://user-images.githubusercontent.com/122807795/213195998-a3aa763b-93a7-4209-b7d0-2ee52fe4da3f.JPG"/>
+<img width="50%" src="https://user-images.githubusercontent.com/122807795/213196007-95ea56e9-913a-4e2d-9bf3-7c3074747c0d.JPG"/>
+<img width="50%" src="https://user-images.githubusercontent.com/122807795/213196015-3884d72e-14fb-43a3-8b98-4a4c5817715e.JPG"/>
