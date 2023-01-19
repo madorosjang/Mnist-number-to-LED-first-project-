@@ -54,4 +54,5 @@ ___
 - 미상의 작성자, ratsgo's blog, <https://ratsgo.github.io/deep%20learning/2017/04/05/CNNbackprop/>, 2017.04.05
 - 미상의 작성자, MATLAB Answers, <https://kr.mathworks.com/matlabcentral/answers/409032-how-do-i-compute-the-maxpool-of-a-image-let-us-say-stride-of-2-2-on-a-mxn-matrix>, 2018.07.06
 - 도움말센터 관리자, MathWorks, <https://kr.mathworks.com/help/matlab/ref/mat2cell.html>, 2022
+- ChatGPT, OpenAI, <https://chat.openai.com/chat/19311bf3-ba2a-4a56-899e-58182f3f0b59>, 2023.01.19
 
