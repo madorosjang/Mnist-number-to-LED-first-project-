@@ -43,10 +43,6 @@ with open('E:\\Pycharm\\project01\\data_for_next\\weights_Pic_Conv.p', 'rb') as 
 - 숫자와 연산자 판별 이후 나머지 과정들은 3개의 hidden layer를 가진 Multi neural network를 통해 학습 및 판별
 - Multi neural network의 활성함수는 Sigmoid를 사용
 - 학습과정에 필요한 training 데이터와 정답 데이터는 반복문과 함수를 통해 생성
-<img width="50%" src="https://user-images.githubusercontent.com/122807795/213195986-65a1e837-8092-4f55-88f5-c01bbc68a09c.JPG"/>
-<img width="50%" src="https://user-images.githubusercontent.com/122807795/213195998-a3aa763b-93a7-4209-b7d0-2ee52fe4da3f.JPG"/>
-<img width="50%" src="https://user-images.githubusercontent.com/122807795/213196007-95ea56e9-913a-4e2d-9bf3-7c3074747c0d.JPG"/>
-<img width="50%" src="https://user-images.githubusercontent.com/122807795/213196015-3884d72e-14fb-43a3-8b98-4a4c5817715e.JPG"/>
 
 ### 코드 출처
 - MATLAB Deep Learning(출판사 : Apress, 저자 : Phill Kim)
